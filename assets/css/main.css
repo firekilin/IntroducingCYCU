@@ -89,7 +89,7 @@ a {
     height: 100%;
     position: absolute;
     background: #ff0000cf;
-    background-image: url(img/1.png);
+    background-image: url(../images/1.png);
     z-index: 2;
     background-size: 100% 100%;
     transition: all 0.5s ease;
@@ -115,7 +115,7 @@ a {
     height: 100%;
     position: absolute;
     background: #7dcbf0e3;
-    background-image: url(img/1.png);
+    background-image: url(../images/1.png);
     z-index: 2;
     background-size: 100% 100%;
     transition: all 0.5s ease;
@@ -141,7 +141,7 @@ a {
     height: 100%;
     position: absolute;
     background: #f07dede3;
-    background-image: url(assets/images/1.png);
+    background-image: url(../images/1.png);
     z-index: 2;
     background-size: 100% 100%;
     transition: all 0.5s ease;
