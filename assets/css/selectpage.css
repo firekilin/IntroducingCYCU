@@ -1,0 +1,71 @@
+	.icon.sky {
+    display: inline-block;
+    background-image: url("../images/ic天.png");
+    width: 80px;
+    height: 80px;
+    background-size: 100%,100%;
+    position: relative;
+    padding-top: 30px;
+    background-repeat: no-repeat;
+}
+.icon.human {
+    display: inline-block;
+    background-image: url("../images/ic人.png");
+    width: 80px;
+    height: 80px;
+    background-size: 100%,100%;
+    position: relative;
+    padding-top: 30px;
+    background-repeat: no-repeat;
+}
+.icon.item {
+    display: inline-block;
+    background-image: url("../images/ic物.png");
+    width: 80px;
+    height: 80px;
+    background-size: 100%,100%;
+    position: relative;
+    padding-top: 30px;
+    background-repeat: no-repeat;
+}
+.icon.me {
+    display: inline-block;
+    background-image: url("../images/ic我.png");
+    width: 80px;
+    height: 80px;
+    background-size: 100%,100%;
+    position: relative;
+    padding-top: 30px;
+    background-repeat: no-repeat;
+}
+
+article {
+    width: 40%;
+    height: 200px;
+    display: inline-block;
+}
+
+.features {}
+
+.features {
+    margin-left: 20%;
+}
+
+.content {
+    position: relative;
+    display: inline-block;
+    width: calc(100% - 90px);
+}
+
+span.icon.human {}
+.content{
+	font-family: "微軟正黑體"; 
+}
+h2{
+	position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-family: "微軟正黑體"; 
+    font-size: 40px;
+}
