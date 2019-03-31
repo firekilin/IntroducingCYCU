@@ -68,6 +68,7 @@ h2{
     width: 100%;
     font-family: "微軟正黑體"; 
     font-size: 40px;
+    margin-bottom:0px;
 }
 a{
 	color:black;
@@ -78,3 +79,22 @@ a:visited{
 a:link{
 	color:black;
 }
+ .AAA
+        {
+
+        margin-bottom:  70px;
+        width: 70%;
+        height: 6px;
+        border:0px;
+        background-color: #F1bbba;
+        }
+ .BBB
+        {
+
+        margin-top: 20px;
+        width: 70%;
+        height: 6px;
+        border:0px;
+        background-color: #F1bbba;
+
+        }
