@@ -43,6 +43,7 @@ article {
     width: 40%;
     height: 200px;
     display: inline-block;
+	transition:all 0.6s ease;
 }
 
 .features {}
@@ -98,3 +99,11 @@ a:link{
         background-color: #F1bbba;
 
         }
+		article:hover {
+    color: white;
+    background: #f1bbba;
+    border-radius: 50px;
+   
+}
+
+article:hover > .icon {-webkit-filter: brightness(3);}
