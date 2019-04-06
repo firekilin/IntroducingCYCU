@@ -40,16 +40,19 @@
 }
 
 article {
-    width: 40%;
+    width: 45%;
+    margin: 2%;
     height: 200px;
     display: inline-block;
-	transition:all 0.6s ease;
+    transition:all 0.6s ease;
 }
 
 .features {}
 
 .features {
-    margin-left: 20%;
+    margin-left: 15%;
+    width: 70%;
+    overflow: hidden;
 }
 
 .content {
@@ -103,7 +106,8 @@ a:link{
     color: white;
     background: #f1bbba;
     border-radius: 50px;
-   
+    margin: 0px;
+    padding: 2%;
 }
 
 article:hover > .icon {-webkit-filter: brightness(3);}
