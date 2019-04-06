@@ -1,0 +1,53 @@
+	.content hr.a
+		{
+		margin-top: 70px;
+		margin-bottom: 	50px;
+		width: 100%;
+		height: 6px;
+		border:0px;
+		background-color: #FF6347;
+		}
+		.content h1
+		{
+		font-size: 20px;
+		color: #696969;
+		margin-top: 30px;
+		width: 400px;
+		}
+		.content p
+		{
+		color: #A9A9A9;
+		font-size: 17px;
+		width: 500px;
+		}
+		.content div.b
+		{
+		color: #A9A9A9;
+		font-size: 17px;
+		line-height: 25px;
+		height: 345px;
+		width: 500px;
+		overflow: hidden;
+		}
+		.content img
+		{
+		width: 50%;
+		float: right;
+		position: relative;
+		top: 30px;
+		border-radius: 30px;
+		}
+		.content {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+}
+
+.content_text {
+    position: relative;
+    width: 50%;
+    top: 30px;
+}
+table {
+    width: 100%;
+}
