@@ -1,4 +1,4 @@
-	.icon.sky {
+    .icon.sky {
     display: inline-block;
     background-image: url("../images/ic輕演講.png");
     width: 80px;
@@ -22,7 +22,7 @@
 
 article {
     width: 40%;
-    height: 200px;
+    height: 100px;
     display: inline-block;
 }
 
@@ -36,14 +36,15 @@ article {
     position: relative;
     display: inline-block;
     width: calc(100% - 90px);
+    vertical-align: top;
 }
 
 span.icon.human {}
 .content{
-	font-family: "微軟正黑體"; 
+    font-family: "微軟正黑體"; 
 }
 h2{
-	position: relative;
+    position: relative;
     display: inline-block;
     text-align: center;
     width: 100%;
@@ -52,13 +53,13 @@ h2{
     margin-bottom:0px;
 }
 a{
-	color:black;
+    color:black;
 }
 a:visited{
-	color:black;
+    color:black;
 }
 a:link{
-	color:black;
+    color:black;
 }
  .AAA
         {
@@ -75,4 +76,11 @@ a:link{
         height: 6px;
         border:0px;
         background-color: #a3daff;
+        }
+.CCC
+        {
+            font-family: "微軟正黑體"; 
+            font-size: 15px;
+            text-align: center;
+
         }
