@@ -1,5 +1,5 @@
 	body {
-    font-family: "微軟正黑體";
+    font-family: "å¾®è»Ÿæ­£é»‘é«”";
 }
 
 .title {
@@ -18,9 +18,9 @@
 }
 
 .inn {
-    position: absolute;
-    width: 80%;
-    margin-left: 10%;
+    position: relative;
+    width: 60%;
+    margin-left: 20%;
     margin-top: 100px;
 }
 
@@ -247,4 +247,12 @@ h2 {
 .main_right:hover {
     background: #ffffff6b;
     font-size: 50px;
+}
+
+.footer {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 200px;
+    background: #f1f1f1;
 }
