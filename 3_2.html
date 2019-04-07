@@ -5,25 +5,35 @@
     <meta charset="UTF-8">
     <title>內頁</title>
     <link rel="stylesheet" type="text/css" href="assets/css/menu.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/content.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/content3.css">
     <script type="text/javascript" src="assets/js/menuoc.js"></script>
+    <script type="text/javascript" src="assets/js/contentshow.js"></script>
 </head>
 
 <body>
     <div class="menu">
         <div class="menu_left">
-            <h3><a href="3.html">日日新活動</a></h3>
+            <h3><a href="1.html">通識課程</a></h3>
             <hr class="a">
-            <a href="3_1.html" target="right">
-                <h5>講座</h5>
+            <a href="1_1.html" target="right">
+                <h5>天</h5>
                 <hr class="b">
             </a>
 
-            <a href="3_2.html" target="right">
-                <h5>樂器表演</h5>
+            <a href="1_2.html" target="right">
+                <h5>人</h5>
                 <hr class="b">
             </a>
 
+            <a href="1_3.html" target="right">
+                <h5>物</h5>
+                <hr class="b">
+            </a>
+
+            <a href="1_4.html" target="right">
+                <h5>我</h5>
+                <hr class="b">
+            </a>
 
         </div>
         <div class="click" onclick="menuoc()"></div>
@@ -31,17 +41,503 @@
 
     <div class="content">
         <hr class="a">
-        <img src="assets/images/pic01.jpg">
-        <div class="content_text">
-            <h1>Hi, I’m Editorial by HTML5 UP</h1>
+        <div class="content_img">
+            <img class="showing_img" src="assets/images/10.jpg">
 
-            <p>A FREE AND FULLY RESPONSIVE SITE TEMPLATE</p>
-            <div class="b">
-                Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod
-                egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.
+
+            <div class="img_box">
+                <div class="button_left" onclick="change_box(-1);">
+                    <</div>
+                        <div class="button_right" onclick="change_box(1);">></div>
+                        <div class="hidden_box">
+                            <img src="assets/images/13.jpg" class="content_imgs zero" onclick="change_img(0)">
+                            <img src="assets/images/10.jpg" class="content_imgs one" onclick="change_img(1)">
+                            <img src="assets/images/11.jpg" class="content_imgs two" onclick="change_img(2)">
+                            <img src="assets/images/12.jpg" class="content_imgs three" onclick="change_img(3)">
+                            <img src="assets/images/13.jpg" class="content_imgs four" onclick="change_img(4)">
+                            <img src="assets/images/13.jpg" class="content_imgs five" onclick="change_img(5)">
+                            <img src="assets/images/13.jpg" class="content_imgs" onclick="change_img(6)">
+                        </div>
+                </div>
+
+            </div>
+            <div class="content_text">
+                <h1>「人」</h1>
+
+                <p>所謂的人，著眼於理解人類社會中之群體現象與互動原則。我們關注在公民素養、社會關懷、歷史思維與多元文化等基本素養。例如生活社會學、當代人權議題、法律與現代生活、文化思想史等相關課程。</p>
+                <div class="b" name="showcontent">
+                    <table>
+
+                        <tr>
+                            <td align='center' colspan=4>
+                                <h2>必修通識</h2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>課程名稱</td>
+                            <td>開課性質</td>
+                            <td>學分</td>
+                            <td>備註</td>
+                        </tr>
+                        <tr>
+                            <td> 文化思想史 </td>
+                            <td> 基礎必修通識 </td>
+                            <td> 2 </td>
+                            <td> 人文素養學程 </td>
+                        </tr>
+                        <tr>
+                            <td> 台灣政治與民主 </td>
+                            <td> 基礎必修通識 </td>
+                            <td> 2 </td>
+                            <td> 僑外生專班。非此身份選課承辦人得逕行刪課 </td>
+                        </tr>
+                        <tr>
+                            <td> 台灣政治與民主 </td>
+                            <td> 基礎必修通識 </td>
+                            <td> 2 </td>
+                            <td> 法學院得不選修 </td>
+                        </tr>
+                        <tr>
+                            <td> 台灣政治與民主 </td>
+                            <td> 基礎必修通識 </td>
+                            <td> 2 </td>
+                            <td> 法學院得不選修，非同步遠距 </td>
+                        </tr>
+                        <tr>
+                            <td> 台灣政治與民主 </td>
+                            <td> 基礎必修通識 </td>
+                            <td> 2 </td>
+                            <td> 法學院得不選修，非同步遠距教學 </td>
+                        </tr>
+                        <tr>
+                            <td> 生活社會學 </td>
+                            <td> 基礎必修通識 </td>
+                            <td> 2 </td>
+                            <td> 法學院得不選修，人文素養學程 </td>
+                        </tr>
+                        <tr>
+                            <td> 全球化大議題 </td>
+                            <td> 基礎必修通識 </td>
+                            <td> 2 </td>
+                            <td> 法學院得不選修 </td>
+                        </tr>
+                        <tr>
+                            <td> 全球化大議題 </td>
+                            <td> 基礎必修通識 </td>
+                            <td> 2 </td>
+                            <td> 法學院得不選修，英語授課 </td>
+                        </tr>
+                        <tr>
+                            <td> 法律與現代生活 </td>
+                            <td> 基礎必修通識 </td>
+                            <td> 2 </td>
+                            <td> 修過法律與人生及法學院得不選修 </td>
+                        </tr>
+                        <tr>
+                            <td> 區域文明史 </td>
+                            <td> 基礎必修通識 </td>
+                            <td> 2 </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td> 當代人權議題與挑戰 </td>
+                            <td> 基礎必修通識 </td>
+                            <td> 2 </td>
+                            <td> 法學院得不選修，人文素養學程 </td>
+                        </tr>
+                        <tr>
+                            <td> 經濟學的世界 </td>
+                            <td> 基礎必修通識 </td>
+                            <td> 2 </td>
+                            <td> 法學院得不選修 </td>
+                        </tr>
+
+
+                        <tr>
+                            <td colspan=4>
+                                <hr>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align='center' colspan=4>
+                                <h2>延伸選修通識</h2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>課程名稱</td>
+                            <td>開課性質</td>
+                            <td>學分</td>
+                            <td>備註</td>
+                        </tr>
+                        <tr>
+                            <td> 工程倫理 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 電資學院指定通識 </td>
+                        </tr>
+                        <tr>
+                            <td> 工程倫理 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 電資學院指定通識，電資學士班優先選修 </td>
+                        </tr>
+                        <tr>
+                            <td> 工程倫理 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 工學院指定通識，土木系修習為主，非同步 </td>
+                        </tr>
+                        <tr>
+                            <td> 工程倫理 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 工學院指定通識，環工系醫工系修習為主 </td>
+                        </tr>
+                        <tr>
+                            <td> 工程倫理 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 工學院指定通識，化工系修習為主 </td>
+                        </tr>
+                        <tr>
+                            <td> 工程與法律 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 財法系不得選修，電資學院指定通識 </td>
+                        </tr>
+                        <tr>
+                            <td> 文化資產與世界遺產 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td> 日本國情與文化 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 應外系日文組不得選修以抵免必修學分 </td>
+                        </tr>
+                        <tr>
+                            <td> 日本語言與文化 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 英日語授課，應外系不得抵免專技學分 </td>
+                        </tr>
+                        <tr>
+                            <td> 民刑法與公民社會 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 公共行政學程 </td>
+                        </tr>
+                        <tr>
+                            <td> 生命與醫療史 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 非同步遠距.人文素養學程 </td>
+                        </tr>
+                        <tr>
+                            <td> 企業倫理 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 商學院指定通識限大三四 </td>
+                        </tr>
+                        <tr>
+                            <td> 全球文化講座 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 大一以上，英文為主，中文為輔 </td>
+                        </tr>
+                        <tr>
+                            <td> 多元文化概論 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 人文素養學程.東南亞學程.非同步遠距 </td>
+                        </tr>
+                        <tr>
+                            <td> 行政法與公共事務 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 公共行政學程 </td>
+                        </tr>
+                        <tr>
+                            <td> 行政學與公共管理 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 公共行政學程 </td>
+                        </tr>
+                        <tr>
+                            <td> 性別平等與現代社會 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td> 服務學習導論 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td> 東南亞社會與文化 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 東南亞文化深耕學程 </td>
+                        </tr>
+                        <tr>
+                            <td> 東南亞政治與社會 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 東南亞文化深耕學程 </td>
+                        </tr>
+                        <tr>
+                            <td> 法律倫理 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 法學院指定特色通識，限大三以上選修 </td>
+                        </tr>
+                        <tr>
+                            <td> 社會與個人 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 人文素養學程 </td>
+                        </tr>
+                        <tr>
+                            <td> 社團學習與領導 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 社團人優先選修 </td>
+                        </tr>
+                        <tr>
+                            <td> 金融講堂 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td> 品格與領導 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 英文授課遠距教學創意創新創業學程 </td>
+                        </tr>
+                        <tr>
+                            <td> 客家語言與文化 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td> 流行文化與社會脈動 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td> 科學與倫理 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 理學院指定通識，限大二以上選修.非同步 </td>
+                        </tr>
+                        <tr>
+                            <td> 科學與倫理 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 理學院指定通識，限大二以上選修 </td>
+                        </tr>
+                        <tr>
+                            <td> 原生文化與永續發展 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td> 弱勢關懷 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 服務學習 </td>
+                        </tr>
+                        <tr>
+                            <td> 桃園論壇劇場 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td> 桃學眷村文史踏察 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 1 </td>
+                            <td> 桃園學課程，需同時修另一門，共3學分 </td>
+                        </tr>
+                        <tr>
+                            <td> 桃學趣 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 桃園學深碗課，部分周末校外參訪，共3學分 </td>
+                        </tr>
+                        <tr>
+                            <td> 桃學趣探索 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 1 </td>
+                            <td> 桃園學課程，需同時修另一門，共3學分 </td>
+                        </tr>
+                        <tr>
+                            <td> 財務金融理論與應用 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 英語授課，非同步遠距 </td>
+                        </tr>
+                        <tr>
+                            <td> 國際事務 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 英語授課 </td>
+                        </tr>
+                        <tr>
+                            <td> 國際現勢 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 東南亞文化深耕學程 </td>
+                        </tr>
+                        <tr>
+                            <td> 國際現勢與兩岸關係 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td> 國際菁英養成實務 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 1 </td>
+                            <td> 國際菁英學程.3/23.24上課.詳課綱 </td>
+                        </tr>
+                        <tr>
+                            <td> 婚姻與家庭 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 英語授課 </td>
+                        </tr>
+                        <tr>
+                            <td> 教育倫理 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 人育學院特色通識，應華學生選修為主 </td>
+                        </tr>
+                        <tr>
+                            <td> 教育倫理 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 人育學院特色通識，應外學生選修為主 </td>
+                        </tr>
+                        <tr>
+                            <td> 教育倫理 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 人育學院特色通識，特教學生選修為主 </td>
+                        </tr>
+                        <tr>
+                            <td> 眷村文化史與桃園學 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 桃園學深碗課，部分周末校外參訪，共3學分 </td>
+                        </tr>
+                        <tr>
+                            <td> 設計倫理 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 設計學院通識以景觀系學生修習為主 </td>
+                        </tr>
+                        <tr>
+                            <td> 設計倫理 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 設計學院通識以建築系學生修習為主 </td>
+                        </tr>
+                        <tr>
+                            <td> 通識教育講座 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 人文素養學程 </td>
+                        </tr>
+                        <tr>
+                            <td> 創業標竿講座 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 創新創意創業學程 </td>
+                        </tr>
+                        <tr>
+                            <td> 愛情關係管理 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 修過兩性關係導論不得選修，非同步遠距 </td>
+                        </tr>
+                        <tr>
+                            <td> 楚漢相爭之職場競爭力 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 非同步遠距課程 </td>
+                        </tr>
+                        <tr>
+                            <td> 臺灣與世界 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td> 認識中國崛起 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 非同步遠距 </td>
+                        </tr>
+                        <tr>
+                            <td> 認識犯罪心理 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td> 認識新聞 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 人文素養學程 </td>
+                        </tr>
+                        <tr>
+                            <td> 數位傳播與文化 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td> 閱聽人分析 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td> 憲法與政府 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 公共行政學程 </td>
+                        </tr>
+                        <tr>
+                            <td> 環境倫理 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td> 職場軟實力 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 限大三大四學生選修 </td>
+                        </tr>
+
+
+
+
+                    </table>
+                </div>
+                <div class="showall" onclick="content_open()">展開</div>
             </div>
         </div>
-    </div>
 
 </body>
 

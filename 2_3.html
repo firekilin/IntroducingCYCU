@@ -1,230 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>內頁</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/menu.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/content.css">
-        <script type="text/javascript" src="assets/js/menuoc.js"></script>
-        <script type="text/javascript" src="assets/js/contentshow.js"></script>
-    </head>
-    <body>
-        <div class="menu">
-            <div class="menu_left">
-                <h3><a href="2.html">通識活動</a></h3>
-                <hr class="a">
-                <a href="2_1.html" target="right">
-                    <h5>演講</h5>
-                    <hr class="b">
-                </a>
-                <a href="2_2.html" target="right">
-                    <h5>戲劇</h5>
-                    <hr class="b">
-                </a>
-                <a href="2_3.html" target="right">
-                    <h5>音樂表演</h5>
-                    <hr class="b">
-                </a>
-            </div>
-            <div class="click" onclick="menuoc()"></div>
-        </div>
-        <div class="content">
+
+<head>
+    <meta charset="UTF-8">
+    <title>內頁</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/menu.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/content2.css">
+    <script type="text/javascript" src="assets/js/menuoc.js"></script>
+    <script type="text/javascript" src="assets/js/contentshow.js"></script>
+</head>
+
+<body>
+    <div class="menu">
+        <div class="menu_left">
+            <h3><a href="1.html">通識課程</a></h3>
             <hr class="a">
-            <div class="content_img">
-                <img class="showing_img" src="assets/images/4.jpg">
-                <div class="img_box">
-                    <div class="button_left" onclick="change_box(-1);">
+            <a href="1_1.html" target="right">
+                <h5>天</h5>
+                <hr class="b">
+            </a>
+
+            <a href="1_2.html" target="right">
+                <h5>人</h5>
+                <hr class="b">
+            </a>
+
+            <a href="1_3.html" target="right">
+                <h5>物</h5>
+                <hr class="b">
+            </a>
+
+            <a href="1_4.html" target="right">
+                <h5>我</h5>
+                <hr class="b">
+            </a>
+
+        </div>
+        <div class="click" onclick="menuoc()"></div>
+    </div>
+
+    <div class="content">
+        <hr class="a">
+        <div class="content_img">
+            <img class="showing_img" src="assets/images/10.jpg">
+
+
+            <div class="img_box">
+                <div class="button_left" onclick="change_box(-1);">
                     <</div>
-                    <div class="button_right" onclick="change_box(1);">></div>
-                    <div class="hidden_box">
-                        <img src="assets/images/4.jpg" class="content_imgs zero" onclick="change_img(0)">
-                        <img src="assets/images/5.jpg" class="content_imgs one" onclick="change_img(1)">
-                        <img src="assets/images/7.jpg" class="content_imgs two" onclick="change_img(2)">
-                        <img src="assets/images/8.jpg" class="content_imgs three" onclick="change_img(3)">
-                        <img src="assets/images/9.jpg" class="content_imgs four" onclick="change_img(4)">
-                    </div>
+                        <div class="button_right" onclick="change_box(1);">></div>
+                        <div class="hidden_box">
+                            <img src="assets/images/13.jpg" class="content_imgs zero" onclick="change_img(0)">
+                            <img src="assets/images/10.jpg" class="content_imgs one" onclick="change_img(1)">
+                            <img src="assets/images/11.jpg" class="content_imgs two" onclick="change_img(2)">
+                            <img src="assets/images/12.jpg" class="content_imgs three" onclick="change_img(3)">
+                            <img src="assets/images/13.jpg" class="content_imgs four" onclick="change_img(4)">
+                            <img src="assets/images/13.jpg" class="content_imgs five" onclick="change_img(5)">
+                            <img src="assets/images/13.jpg" class="content_imgs" onclick="change_img(6)">
+                        </div>
                 </div>
+
             </div>
             <div class="content_text">
-                <h1>「音樂表演」</h1>
-                <p>中原大學風雅頌藝文廳為音樂表演, 大師演講, 藝文欣賞的優雅空間，也為桃園中壢區帶來每周兩場精采的藝文活動。</p>
+                <h1>「物」</h1>
+
+                <p>所謂的物，致力於加深個人科學思辨能力與永續關懷。我們重視自然與科學、科技與文明等基本素養。譬如自然科學導論、科技跨領域課程與永續發展等相關課程。</p>
                 <div class="b" name="showcontent">
                     <table>
-                        
+
                         <tr>
                             <td align='center' colspan=4>
-                                <h2>風雅頌</h2>
+                                <h2>必修通識</h2>
                             </td>
                         </tr>
                         <tr>
-                            <td>節目名稱</td>
-                            <td>表演時間</td>
-                            <td>表演地點</td>
-                            <td>音樂曲風</td>
+                            <td>課程名稱</td>
+                            <td>開課性質</td>
+                            <td>學分</td>
+                            <td>備註</td>
                         </tr>
                         <tr>
-                            <td>菁英音樂家- 室內樂音樂會</td>
-                            <td>02/27</td>
-                            <td>風雅頌藝文廳</td>
-                            <td>三重奏</td>
-                            
+                            <td> 自然科學導論 </td>
+                            <td> 基礎必修通識 </td>
+                            <td> 2 </td>
+                            <td> 大一完成修課，理學院不得選修 </td>
                         </tr>
                         <tr>
-                            <td>eSport Musicians- 電競樂手</td>
-                            <td>03/06</td>
-                            <td>風雅頌藝文廳</td>
-                            <td>爵士四重奏</td>
+                            <td> 自然科學導論 </td>
+                            <td> 基礎必修通識 </td>
+                            <td> 2 </td>
+                            <td> 大一完成修課，理學院學生修習為主 </td>
                         </tr>
                         <tr>
-                            <td>風雅頌室內樂集</td>
-                            <td>03/07</td>
-                            <td>風雅頌藝文廳</td>
-                            <td>三重奏</td>
+                            <td> 工程與科技 </td>
+                            <td> 基礎必修通識 </td>
+                            <td> 2 </td>
+                            <td> 大一完成修課，工學院學生優先選修 </td>
                         </tr>
                         <tr>
-                            <td>楊曉恩爵士樂團feat. Jonathan Katz</td>
-                            <td>03/13</td>
-                            <td>風雅頌藝文廳</td>
-                            <td>爵士四重奏</td>
+                            <td> 電資與人類文明 </td>
+                            <td> 基礎必修通識 </td>
+                            <td> 2 </td>
+                            <td> 大一完成修課，電資學院學生優先選修 </td>
                         </tr>
-                        <tr>
-                            <td>重重烈火~ 女高音對女高音的吶喊</td>
-                            <td>03/14</td>
-                            <td>風雅頌藝文廳</td>
-                            <td>重唱</td>
-                        </tr>
-                        <tr>
-                            <td>【穿越時空來相會】魅力二人組</td>
-                            <td>03/21</td>
-                            <td>風雅頌藝文廳</td>
-                            <td>二重奏</td>
-                        </tr>
-                        <tr>
-                            <td>女人的愛情與一生( 克拉拉與舒曼)</td>
-                            <td>03/27</td>
-                            <td>風雅頌藝文廳</td>
-                            <td>獨唱</td>
-                        </tr>
-                        <tr>
-                            <td>當代爵士之聲</td>
-                            <td>03/28</td>
-                            <td>風雅頌藝文廳</td>
-                            <td>爵士四重奏</td>
-                        </tr>
-                        <tr>
-                            <td>三個巴赫</td>
-                            <td>04/03</td>
-                            <td>風雅頌藝文廳</td>
-                            <td>三重奏</td>
-                        </tr>
-                        <tr>
-                            <td>散場後的旋律</td>
-                            <td>04/10</td>
-                            <td>風雅頌藝文廳</td>
-                            <td>三重奏</td>
-                        </tr>
-                        <tr>
-                            <td>春之樂享</td>
-                            <td>04/11</td>
-                            <td>風雅頌藝文廳</td>
-                            <td>重唱</td>
-                        </tr>
-                        <tr>
-                            <td>變換樂端</td>
-                            <td>04/24</td>
-                            <td>風雅頌藝文廳</td>
-                            <td>四重奏</td>
-                        </tr>
-                        <tr>
-                            <td>鋼琴三重奏的春季狂歡</td>
-                            <td>04/25</td>
-                            <td>風雅頌藝文廳</td>
-                            <td>鋼琴三重奏及男高音</td>
-                        </tr>
-                        <tr>
-                            <td>葉賀璞 三重奏Hope Yeh Trio</td>
-                            <td>05/01</td>
-                            <td>風雅頌藝文廳</td>
-                            <td>吉他、鼓組、貝斯</td>
-                        </tr>
-                        <tr>
-                            <td>Classical X Tap</td>
-                            <td>05/02</td>
-                            <td>風雅頌藝文廳</td>
-                            <td>木管五重奏與踢踏舞</td>
-                        </tr>
-                        <tr>
-                            <td>台北青年管樂團室內樂集【管與絃的對話之民謠幻想】</td>
-                            <td>05/08</td>
-                            <td>風雅頌藝文廳</td>
-                            <td>鋼琴四重奏</td>
-                        </tr>
-                        <tr>
-                            <td>德奧經典：曼哈頓室內樂集</td>
-                            <td>05/09</td>
-                            <td>風雅頌藝文廳</td>
-                            <td>室內樂</td>
-                        </tr>
-                        <tr>
-                            <td>黃瑞豐 D.O.G.S 電風琴四重奏</td>
-                            <td>05/15</td>
-                            <td>風雅頌藝文廳</td>
-                            <td>爵士四重奏</td>
-                        </tr>
-                        <tr>
-                            <td>長笛與鋼琴的對話</td>
-                            <td>05/16</td>
-                            <td>風雅頌藝文廳</td>
-                            <td>二重奏</td>
-                        </tr>
-                        <tr>
-                            <td>Alors On Chante!</td>
-                            <td>05/22</td>
-                            <td>風雅頌藝文廳</td>
-                            <td>重唱</td>
-                        </tr>
-                        <tr>
-                            <td>浪漫狂潮─單簧管、中提琴、鋼琴三重奏音樂會</td>
-                            <td>05/23(</td>
-                            <td>風雅頌藝文廳</td>
-                            <td>三重奏</td>
-                        </tr>
-                        <tr>
-                            <td>仲夏之露</td>
-                            <td>05/29</td>
-                            <td>風雅頌藝文廳</td>
-                            <td>五重奏</td>
-                        </tr>
-                        <tr>
-                            <td>曼哈頓室內樂集—跨越時空的小提琴小品</td>
-                            <td>05/30</td>
-                            <td>風雅頌藝文廳</td>
-                            <td>二重奏</td>
-                        </tr>
-                        <tr>
-                            <td>蔡世豪與陳昭惠四手聯彈音樂會</td>
-                            <td>06/05</td>
-                            <td>風雅頌藝文廳</td>
-                            <td>鋼琴四手聯彈</td>
-                        </tr>
-                        <tr>
-                            <td>FIVE JAZZ MEN 爵士五重奏</td>
-                            <td>06/06</td>
-                            <td>風雅頌藝文廳</td>
-                            <td>爵士五重奏</td>
-                        </tr>
-                        <tr>
-                            <td>Joni, Jazz and I</td>
-                            <td>06/12</td>
-                            <td>風雅頌藝文廳</td>
-                            <td>爵士五重奏</td>
-                        </tr>
-                        <tr>
-                            <td>G 弦之歌</td>
-                            <td>06/13</td>
-                            <td>風雅頌藝文廳</td>
-                            <td>二重奏</td>
-                        </tr>
+
                         <tr>
                             <td colspan=4>
                                 <hr>
@@ -232,43 +111,240 @@
                         </tr>
                         <tr>
                             <td align='center' colspan=4>
-                                <h2>樂曲悠揚</h2>
+                                <h2>延伸選修通識</h2>
                             </td>
                         </tr>
                         <tr>
-                            <td>節目名稱</td>
-                            <td>表演時間</td>
-                            <td>表演地點</td>
-                            <td>音樂曲風</td>
+                            <td>課程名稱</td>
+                            <td>開課性質</td>
+                            <td>學分</td>
+                            <td>備註</td>
                         </tr>
                         <tr>
-                            <td>人聲_琴韻_人生</td>
-                            <td>03/27</td>
-                            <td>校牧室</td>
-                            <td>鋼琴、男中音、男高音、女中音</td>
+                            <td> 時空簡史 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> </td>
                         </tr>
                         <tr>
-                            <td>乘著音樂的翅膀</td>
-                            <td>04/29</td>
-                            <td>瑞麗堂</td>
-                            <td>合唱</td>
+                            <td> 生活化學應用 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> </td>
                         </tr>
                         <tr>
-                            <td>垂暮之燦</td>
-                            <td>05/16</td>
-                            <td>校牧室</td>
-                            <td>小提琴、中提琴、大提琴</td>
+                            <td> 食品與健康 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 生科系學生不得選修 </td>
                         </tr>
                         <tr>
-                            <td>橫豎是美─藍斯頓的詩畫</td>
-                            <td>05/28</td>
-                            <td>瑞麗堂</td>
-                            <td>鋼琴、長笛、單簧管</td>
+                            <td> 環境與幸福生活 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> </td>
                         </tr>
+                        <tr>
+                            <td> 數位編曲聲音設計 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 數音學程，需另收專業場地器材使用費 </td>
+                        </tr>
+                        <tr>
+                            <td> 數位聲音後製概論 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 數音學程，需另收專業場地器材使用費 </td>
+                        </tr>
+                        <tr>
+                            <td> 進階錄音技術 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 數音學程，需另收專業場地使用費 </td>
+                        </tr>
+                        <tr>
+                            <td> 美食的真相 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 生科系學生不得選修 </td>
+                        </tr>
+                        <tr>
+                            <td> 認識星空 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td> 綠色生活與永續環境 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td> 新世代的科學夢 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td> 生態藝術 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 英語授課 </td>
+                        </tr>
+                        <tr>
+                            <td> 生態藝術 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td> 防災科技與生活 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td> 超級英雄的物理學 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 非同步遠距 </td>
+                        </tr>
+                        <tr>
+                            <td> 生活中的預防醫學 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td> 生態工程與生活 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 英語授課.人文素養學程 </td>
+                        </tr>
+                        <tr>
+                            <td> 生態工程與生活 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 人文素養學程 </td>
+                        </tr>
+                        <tr>
+                            <td> 自然科學應用 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td> 運動與健康 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td> 中醫科學觀 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td> 創意思解 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 三創學程，非同步，電資學院指定通識 </td>
+                        </tr>
+                        <tr>
+                            <td> 創意思解 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 三創學程，電資學院指定通識 </td>
+                        </tr>
+                        <tr>
+                            <td> 毫微米的世界 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 電資學院指定通識 </td>
+                        </tr>
+                        <tr>
+                            <td> 生物學概論 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 限非生科環工醫工系選修 </td>
+                        </tr>
+                        <tr>
+                            <td> 生命科學概論 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 限非生科醫工心理化工生環系，電資指定通識 </td>
+                        </tr>
+                        <tr>
+                            <td> 基因與疾病 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 生科系不得選修 </td>
+                        </tr>
+                        <tr>
+                            <td> 科技災害導論 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td> 綠色科技講座 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 綠色科技學程，電資學院指定通識 </td>
+                        </tr>
+                        <tr>
+                            <td> 認知的科學 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 人文素養學程 </td>
+                        </tr>
+                        <tr>
+                            <td> 行為控制學 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td> 科技與藝術 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 三創學程 </td>
+                        </tr>
+                        <tr>
+                            <td> 基礎錄音技術 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 數音學程，需另收專業場地使用費 </td>
+                        </tr>
+                        <tr>
+                            <td> 廣播錄音工程 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 數位音樂學程，需收專業教室使用費 </td>
+                        </tr>
+                        <tr>
+                            <td> 音樂節目製作 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> 數音學程，需收專業教室使用費 </td>
+                        </tr>
+                        <tr>
+                            <td> 認識大數據 </td>
+                            <td> 延伸選修通識 </td>
+                            <td> 2 </td>
+                            <td> </td>
+                        </tr>
+
+
+
                     </table>
                 </div>
                 <div class="showall" onclick="content_open()">展開</div>
             </div>
         </div>
-    </body>
+
+</body>
+
 </html>
