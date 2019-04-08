@@ -31,21 +31,26 @@
 
 
 article {
-    width: 40%;
-    height: 200px;
+     width: 45%;
+    margin: 2%;
+    height: auto;
     display: inline-block;
+    transition:all 0.6s ease;
 }
 
-.features {}
+
 
 .features {
-    margin-left: 20%;
+     margin-left: 15%;
+    width: 70%;
+    overflow: hidden;
 }
 
 .content {
     position: relative;
     display: inline-block;
     width: calc(100% - 90px);
+	    vertical-align: top;
 }
 
 span.icon.human {}
@@ -89,3 +94,11 @@ a:link{
         background-color: #a8dba8;
 
         }
+		article:hover {
+    color: white;
+    background: #a8dba8;
+    border-radius: 50px;
+    margin: 0px;
+    padding: 2%;
+}
+		article:hover > .icon {-webkit-filter: brightness(3);}

@@ -50,7 +50,7 @@
 }
 
 .menu a:hover {
-    color: #FF6347;
+    color: #51a8e2;
 }
 .menu a:hover >.b {
     color: #ffffff;
@@ -79,8 +79,26 @@
 .click:hover {
     background: #a3daff;
     opacity: 1;
+	 padding-left: 10px;
 }
 
 .menu.open {
     left: 0px;
+}
+.logo {
+    width: 100px;
+    height: 100%;
+    margin-left: calc(50% - 50px);
+    margin-top: 20px;
+    position: relative;
+    transition: all 0.6s ease;
+}
+
+img {
+    width: 100%;
+}
+
+.logo:hover {
+    width: 120px;
+    margin-left: calc(50% - 60px);
 }

@@ -42,12 +42,11 @@
 article {
     width: 45%;
     margin: 2%;
-    height: 200px;
+    height: auto;
     display: inline-block;
     transition:all 0.6s ease;
 }
 
-.features {}
 
 .features {
     margin-left: 15%;
