@@ -356,3 +356,16 @@ img {
     width: 120px;
     margin-left: calc(50% - 60px);
 }
+.aboutus {
+    position: absolute;
+    bottom: 0px;
+    width: 98%;
+    padding: 2%;
+    transition: all 0.6s ease;
+}
+
+.aboutus:hover {
+    bottom: 10px;
+    padding: 0;
+    width: 100%;
+}
