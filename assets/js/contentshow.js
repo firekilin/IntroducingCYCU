@@ -6,8 +6,12 @@ function content_open() {
 }
 
 function change_img(x) {
-    document.getElementsByClassName("showing_img")[0].src=document.getElementsByClassName("content_imgs")[x].src;
+    document.getElementsByClassName("showing_img")[0].src=document.getElementsByClassName("content_imgs")[x].id;
 }
+function change_video(x) {
+    document.getElementsByClassName("showing_video")[0].src=document.getElementsByClassName("content_imgs")[x].id;
+}
+
 
 var slid=0;
 function change_box(x) {
