@@ -1,0 +1,67 @@
+.top
+{
+	display: block;
+	margin: auto;
+    width: 15%;
+    height: 14%;
+}
+.toptop
+{
+	margin-bottom: 3%;
+}
+.leftphoto
+{
+   float: left;
+   width: 250px;
+   height: 250px;
+   padding: 2.5% 0% 0% 2%;
+   margin-right: 2%;
+}
+.rightphoto
+{
+   float: right;
+   width: 250px;
+   height: 250px;
+   margin: -21.4% 2% 0% 0%;
+}
+.bor
+{
+	border: 1px solid #AAAAAA;
+    height: 300px;
+    width: 80%;
+    display: block;
+	margin: auto;
+	margin-bottom: 5%;
+}
+p.a
+{
+	height: 200px;
+    width: 775px;
+	padding: 2%;
+	line-height: 150%;
+
+}
+p.b
+{
+    height: 200px;
+    width: 500px;
+	padding: 2%;
+	line-height: 150%;
+	margin-left:22.5%;	
+}
+.rightphoto_log
+{
+   float: right;
+   width: 150px;
+   height: 150px;
+   margin: -18% 10% 0% 0%;
+
+}
+.leftphoto_log
+{
+   float: left;
+   width: 150px;
+   height: 150px;
+   padding:  2%;
+   margin:3% 2% 0% 2%;
+}
