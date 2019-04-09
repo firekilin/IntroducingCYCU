@@ -11,3 +11,8 @@ var slids=0;
 		}
 		document.getElementsByClassName("main_images")[slids].className="main_images show";
 	}
+	function autoslid(){
+		slid(1);
+		setTimeout('autoslid()',5000);
+	}
+	setTimeout('autoslid()',5000);
