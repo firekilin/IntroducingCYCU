@@ -369,3 +369,10 @@ img {
     padding: 0;
     width: 100%;
 }
+.img.style2:hover > a {
+    color: #5edca5;
+}
+
+.img.style3:hover >a {
+    color: #4cd0d0;
+}
