@@ -17,6 +17,11 @@ var slids=0;
 	}
 	setTimeout('autoslid()',5000);
 function videoss(){
-	document.getElementsByClassName("videoss")[0].style.height="500px";
-	document.getElementsByClassName("videos")[0].style.display="none";
+	if(document.getElementsByClassName("videoss")[0].style.height==""||document.getElementsByClassName("videoss")[0].style.height=="0px"){
+		document.getElementsByClassName("videoss")[0].style.height="500px";
+		
+	}else{
+		document.getElementsByClassName("videoss")[0].style.height="0px";
+	}
+	
 }
