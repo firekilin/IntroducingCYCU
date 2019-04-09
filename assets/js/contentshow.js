@@ -6,7 +6,7 @@ function content_open() {
 }
 
 function change_img(x) {
-    document.getElementsByClassName("showing_img")[0].src=document.getElementsByClassName("content_imgs")[x].id;
+    document.getElementsByClassName("showing_img")[0].src=document.getElementsByClassName("content_imgs")[x].src;
 }
 function change_video(x) {
     document.getElementsByClassName("showing_video")[0].src=document.getElementsByClassName("content_imgs")[x].id;
