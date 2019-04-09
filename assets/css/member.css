@@ -1,67 +1,93 @@
 .top
 {
-	display: block;
-	margin: auto;
-    width: 15%;
-    height: 14%;
+display: block;
+margin: auto;
+width: 15%;
+height: 14%;
 }
 .toptop
 {
-	margin-bottom: 3%;
+margin-bottom: 3%;
 }
 .leftphoto
 {
-   float: left;
-   width: 250px;
-   height: 250px;
-   padding: 2.5% 0% 0% 2%;
-   margin-right: 2%;
+float: left;
+width: 250px;
+height: 250px;
+padding: 2.5% 0% 0% 2%;
+margin-right: 2%;
 }
 .rightphoto
 {
-   float: right;
-   width: 250px;
-   height: 250px;
-   margin: -21.4% 2% 0% 0%;
+float: right;
+width: 250px;
+height: 250px;
+margin: -26% 3% 0% 0%;
 }
 .bor
 {
-	border: 1px solid #AAAAAA;
-    height: 300px;
-    width: 80%;
-    display: block;
-	margin: auto;
-	margin-bottom: 5%;
+border: 1px solid #AAAAAA;
+height: 350px;
+width: 80%;
+display: block;
+margin: auto;
+margin-bottom: 5%;
 }
 p.a
 {
-	height: 200px;
-    width: 775px;
-	padding: 2%;
-	line-height: 150%;
-
+height: 200px;
+width: 775px;
+padding:1% 2% 2% 2%;
+line-height: 150%;
+text-align: justify;
 }
 p.b
 {
-    height: 200px;
-    width: 500px;
-	padding: 2%;
-	line-height: 150%;
-	margin-left:22.5%;	
+height: 200px;
+width: 500px;
+padding:1% 2% 2% 2%;
+line-height: 150%;
+margin-left:22.5%;
+text-align: justify;
 }
 .rightphoto_log
 {
-   float: right;
-   width: 150px;
-   height: 150px;
-   margin: -18% 10% 0% 0%;
-
+float: right;
+width: 150px;
+height: 150px;
+margin: -20% 10% 0% 0%;
 }
 .leftphoto_log
 {
-   float: left;
-   width: 150px;
-   height: 150px;
-   padding:  2%;
-   margin:3% 2% 0% 2%;
+float: left;
+width: 150px;
+height: 150px;
+padding:  2%;
+margin:5% 2% 0% 2%;
+}
+.FB
+{
+clear: left;
+padding: 1.5%;
+margin-left: 6%;
+}
+.FB_LINK
+{
+position: relative;
+top: -54px;
+left: 15%;
+}
+.FB_2
+{
+clear: right;
+text-align: right;
+padding: 1.5%;
+margin-left: 12%;
+width: 850px;
+}
+.FB_LINK2
+{
+position: relative;
+top: -54px;
+left: 87%;
 }
