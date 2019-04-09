@@ -16,3 +16,7 @@ var slids=0;
 		setTimeout('autoslid()',5000);
 	}
 	setTimeout('autoslid()',5000);
+function videoss(){
+	document.getElementsByClassName("videoss")[0].style.height="500px";
+	document.getElementsByClassName("videos")[0].style.display="none";
+}
