@@ -3,7 +3,7 @@
   
 }
 hr{
-    width:70%;
+    width:62%;
 }
 .body{
       position:relative;
@@ -396,7 +396,7 @@ iframe {
 .videos {
     text-align: center;
     width: 50%;
-    margin-left: 25%;
+    margin:5% 0 0 25%;
     border-radius: 20px;
     background: #ef9ee3;
     color: #9b479b;
