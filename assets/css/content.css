@@ -4,7 +4,7 @@
     width: 100%;
     height: 6px;
     border: 0px;
-    background-color: #F1bbba;
+    background-color: #FF6347;
 }
 .showing_video {
     width: 100%;
@@ -65,12 +65,12 @@ table {
     border-radius: 0px 0px 20px 20px;
     transition: all 0.6s ease;
     text-align: center;
-    color: #F1bbba;
+    color: tomato;
     padding-top: 10px;
 }
 
 .showall:hover {
-    background: #FF8785;
+    background: tomato;
     margin-top: 10px;
     color: white;
 }
@@ -157,7 +157,7 @@ img.content_imgs.five {
     transition: all 0.3s ease;
 }
 .button_left:hover {
-    background:#F1bbba;
+    background:tomato;
      color:white;
 }
 .button_right {
@@ -202,3 +202,6 @@ img.content_imgs.five {
     width: 12%;
 }
 
+.tdcenter{
+	text-align:center;
+}
