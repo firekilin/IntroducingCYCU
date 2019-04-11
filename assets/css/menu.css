@@ -21,7 +21,7 @@
     width: 100px;
     height: 6px;
     border: 0px;
-    background-color: #FF6347;
+    background-color: #F1bbba;
 }
 
 .menu h5 {
@@ -50,7 +50,7 @@
 }
 
 .menu a:hover {
-    color: #FF6347;
+    color: #F1bbba;
 }
 .menu a:hover >.b {
     color: #ffffff;
