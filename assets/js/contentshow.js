@@ -1,7 +1,7 @@
 function content_open() {
-    document.getElementsByName("showcontent")[0].style.width="calc(100% - 20px)";
-    document.getElementsByName("showcontent")[0].style.overflow="overlay";
-	document.getElementsByName("showcontent")[0].style.height="450px";
+    document.getElementsByClassName("b showcontent")[0].style.width="calc(100% - 20px)";
+    document.getElementsByClassName("b showcontent")[0].style.overflow="overlay";
+	document.getElementsByClassName("b showcontent")[0].style.height="450px";
     document.getElementsByClassName("showall")[0].style.display="none";
 }
 
