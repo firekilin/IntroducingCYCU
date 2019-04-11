@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>內頁</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/menu2.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/content2.css">
+        <script type="text/javascript" src="assets/js/menuoc.js"></script>
+        <script type="text/javascript" src="assets/js/contentshow.js"></script>
+    </head>
+    <body>
+        <div class="menu">
+            <div class="menu_left"> <div class="logo"><a href="index.html"><img alt="" src="assets/images/ic校徽.png"></a></div>
+                <h3><a href="activity.html">通識活動</a></h3>
+                <hr class="a">
+                <a href="activity_lecture.html" target="right">
+                    <h5>演講</h5>
+                    <hr class="b">
+                </a>
+                <a href="activity_music.html" target="right">
+                    <h5>戲劇</h5>
+                    <hr class="b">
+                </a>
+                <a href="activity_drama.html" target="right">
+                    <h5>音樂表演</h5>
+                    <hr class="b">
+                </a>
+            </div>
+            <div class="click" onclick="menuoc()"></div>
+        </div>
+        <div class="content">
+            <hr class="a">
+            <div class="content_img">
+                <img alt="" class="showing_img" src="assets/images/2.jpg">
+                <div class="img_box">
+                    <div class="button_left" onclick="change_box(-1);">
+                    <</div>
+                    <div class="button_right" onclick="change_box(1);">></div>
+                    <div class="hidden_box">
+                        <img alt="" src="assets/images/2.jpg" class="content_imgs zero" onclick="change_img(0)">
+                        <img alt="" src="assets/images/3.jpg" class="content_imgs one" onclick="change_img(1)">
+                        <img alt="" src="assets/images/6.jpg" class="content_imgs two" onclick="change_img(2)">
+                        <img alt="" src="assets/images/14.jpg" class="content_imgs three" onclick="change_img(3)">
+						<img alt="" src="assets/images/1.png" class="content_imgs four" >
+						<img alt="" src="assets/images/1.png" class="content_imgs five">
+						<img alt="" src="assets/images/1.png" class="content_imgs" >
+                    </div>
+                </div>
+            </div>
+            <div class="content_text">
+                <h1>「講座」</h1>
+                <p>中原大學邀請各領域重量級學者專家，內容含括人文、科
+                    技、藝術、傳播等多面向主題對話，期望以全人講學平臺之方式，培育學生成為具有深刻人
+                文藝術涵養與科學應用能力的現代知識分子，深耕本校全人教育</p>
+                <div class="b" name="showcontent">
+                    <table>
+                        
+                        <tr>
+                            <td align='center' colspan=4>
+                                <h2>專業倫理大師系列</h2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>活動名稱</td>
+                            <td>活動時間</td>
+                            <td>活動地點</td>
+                            <td>演講者</td>
+                        </tr>
+                        <tr>
+                            <td>倫理可不可以教</td>
+                            <td>06/10  15:00-17:00</td>
+                            <td>圖書館101</td>
+                            <td>羅秉祥</td>
+                        </tr>
+                        <tr>
+                            <td>性的困擾</td>
+                            <td>06/11 10:00-12:00 </td>
+                            <td>全人618</td>
+                            <td>羅秉祥</td>
+                        </tr>
+                        <tr>
+                            <td>道德兩難，難在哪裡</td>
+                            <td>06/12  10:00-12:00</td>
+                            <td>圖書館普仁小集</td>
+                            <td>羅秉祥</td>
+                        </tr>
+                        <tr>
+                            <td>基因編輯的哲學和倫理問題</td>
+                            <td>06/12  15:10-17:00</td>
+                            <td>圖書館秀德廳</td>
+                            <td>羅秉祥</td>
+                        </tr>
+                        <tr>
+                            <td>正義、關懷：道德思考的兩性差異？</td>
+                            <td>06/14  10:00-12:00</td>
+                            <td>圖書館秀德廳</td>
+                            <td>羅秉祥</td>
+                        </tr>
+                        <tr>
+                            <td colspan=4>
+                                <hr>
+                            </td>
+                        </tr>
+                        <tr>
+                            
+                            <td align='center' colspan=4>
+                                <h2>全人博雅講壇</h2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>活動名稱</td>
+                            <td>活動時間</td>
+                            <td>活動地點</td>
+                            <td>演講者</td>
+                        </tr>
+                        <tr>
+                            <td>十八歲的探險和養成</td>
+                            <td>03/27 15:10-17:00</td>
+                            <td>圖書館秀德廳</td>
+                            <td>劉克襄</td>
+                        </tr>
+                        <tr>
+                            <td>在物理學的金字塔爬上又爬下</td>
+                            <td>04/24 15:10-17:00 </td>
+                            <td>圖書館秀德廳</td>
+                            <td>施奇廷</td>
+                        </tr>
+                        <tr>
+                            <td>我的人生就像搞不定的麻煩事</td>
+                            <td>05/15 15:10-17:00</td>
+                            <td>圖書館秀德廳</td>
+                            <td>眭澔平</td>
+                        </tr>
+                        <tr>
+                            <td>基因編輯的哲學和倫理問題</td>
+                            <td>06/12  15:10-17:00</td>
+                            <td>圖書館秀德廳</td>
+                            <td>羅秉祥</td>
+                        </tr>
+                        
+                        <tr>
+                            <td colspan=4>
+                                <hr>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align='center' colspan=4>
+                                <h2>人文講座</h2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>活動名稱</td>
+                            <td>活動時間</td>
+                            <td>活動地點</td>
+                            <td>演講者</td>
+                        </tr>
+                        <tr>
+                            <td>經典與人的互動</td>
+                            <td>04/23 15:10-17:00</td>
+                            <td>全人村瑞麗堂</td>
+                            <td>呂妙芬</td>
+                        </tr>
+                        
+                        <tr>
+                            <td colspan=4>
+                                <hr>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align='center' colspan=4>
+                                <h2>人生講座</h2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>活動名稱</td>
+                            <td>活動時間</td>
+                            <td>活動地點</td>
+                            <td>演講者</td>
+                        </tr>
+                        <tr>
+                            <td>聽我唱奇妙愛</td>
+                            <td>03/13 10:10-11:00</td>
+                            <td>校牧室</td>
+                            <td>施孝榮</td>
+                        </tr>
+                        <tr>
+                            <td>從零開始的勇氣</td>
+                            <td>03/27 10:10-11:00</td>
+                            <td>校牧室</td>
+                            <td>吳靜怡</td>
+                        </tr>
+                        <tr>
+                            <td>飄向北方</td>
+                            <td>04/03 10:10-11:00</td>
+                            <td>校牧室</td>
+                            <td>謝品然</td>
+                        </tr>
+                        <tr>
+                            <td>Making your life count in the worldwe live in</td>
+                            <td>04/24 10:10-11:00</td>
+                            <td>校牧室</td>
+                            <td>史艾瑞克</td>
+                        </tr>
+                        <tr>
+                            <td>和你想的不一樣~介紹樂山教養院</td>
+                            <td>05/01 10:10-11:00</td>
+                            <td>校牧室</td>
+                            <td>張嘉芳</td>
+                        </tr>
+                        <tr>
+                            <td>天人合一</td>
+                            <td>05/08 10:10-11:00</td>
+                            <td>校牧室</td>
+                            <td>范大陵</td>
+                        </tr>
+                        <tr>
+                            <td>平凡中的幸福</td>
+                            <td>05/15 10:10-11:00</td>
+                            <td>校牧室</td>
+                            <td>吳志超</td>
+                        </tr>
+                        <tr>
+                            <td>細語入我心</td>
+                            <td>05/22 10:10-11:00</td>
+                            <td>校牧室</td>
+                            <td>中原大學教職員詩班</td>
+                        </tr>
+                        <tr>
+                            <td>學習的目的</td>
+                            <td>05/29 10:10-11:00</td>
+                            <td>校牧室</td>
+                            <td>楊坤原</td>
+                        </tr>
+                        <tr>
+                            <td>做夢、尋夢到築夢~原來都是超完美計畫</td>
+                            <td>06/05 10:10-11:00</td>
+                            <td>校牧室</td>
+                            <td>溫芳玲</td>
+                            
+                        </tr>
+                    </table>
+                </div>
+                <div class="showall" onclick="content_open()">展開</div>
+            </div>
+        </div>
+    </body>
+</html>
