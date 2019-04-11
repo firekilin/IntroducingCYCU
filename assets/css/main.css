@@ -391,6 +391,7 @@ iframe {
     height: 0px;
     width: 100%;
 	transition: all 0.6s ease;
+	border:0;
 }
 
 .videos {
